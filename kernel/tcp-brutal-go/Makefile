@@ -28,6 +28,11 @@ endef
 
 include $(INCLUDE_DIR)/kernel-defaults.mk
 
+define Build/Prepare
+	$(call Build/Prepare/Default)
+	$(CP) ./files/Makefile $(PKG_BUILD_DIR)/
+endef
+
 define Build/Configure
 endef
 
