@@ -2,15 +2,12 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/kernel.mk
 
 PKG_NAME:=tcp-brutal-go
-PKG_VERSION:=1.0.0
+PKG_VERSION:=1.0.1
 PKG_RELEASE:=1
 
-PKG_URL:=https://github.com/phuslu/tcp-brutal
-PKG_SOURCE_URL:=$(PKG_URL).git
-PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=v$(PKG_VERSION)
-PKG_SOURCE_DATE:=2026-05-1
-PKG_MIRROR_HASH:=18f4e386f6f703f183595e94aeef3a348102a9d884c9e646aa3aee1671c75784
+PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://codeload.github.com/phuslu/tcp-brutal/tar.gz/v$(PKG_VERSION)?
+PKG_HASH:=41b89ff9c06c87da0c62f6ea54c17cb8a24a14b713522a2101dc6f292c4f0412
 PKG_LICENSE:=GPL-3.0
 
 PKG_MAINTAINER:=Haruue Icymoon <i@haruue.moe>
