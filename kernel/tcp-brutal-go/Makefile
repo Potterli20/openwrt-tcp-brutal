@@ -10,7 +10,7 @@ PKG_SOURCE_URL:=https://codeload.github.com/phuslu/tcp-brutal/tar.gz/v$(PKG_VERS
 PKG_HASH:=41b89ff9c06c87da0c62f6ea54c17cb8a24a14b713522a2101dc6f292c4f0412
 PKG_LICENSE:=GPL-3.0
 
-PKG_MAINTAINER:=Haruue Icymoon <i@haruue.moe>
+PKG_MAINTAINER:=phuslu
 
 include $(INCLUDE_DIR)/package.mk
 
